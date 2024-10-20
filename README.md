@@ -18,6 +18,18 @@ Before you begin, ensure you have the following installed on your machine:
 - **An OpenWeatherMap API key**
 - **Email credentials for sending alerts**
 
+## Tech Stack
+
+- **Node.js**: Back-end runtime environment for building server-side logic.
+- **Express.js**: Web framework for Node.js to handle routes and API endpoints.
+- **MongoDB**: NoSQL database for storing weather data and daily summaries.
+- **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js.
+- **OpenWeather API**: External weather data provider for real-time weather updates.
+- **Nodemailer**: Library for sending weather alerts via email.
+- **Axios**: HTTP client for making API requests to the OpenWeather API.
+- **Jest**: Testing framework for writing unit and integration tests.
+
+
 ### Setting up MongoDB
 To run MongoDB locally:
 1. Install MongoDB from [MongoDB Download Center](https://www.mongodb.com/try/download/community).
